@@ -1,6 +1,6 @@
 {
   "name": "crypto-theme",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Themes",
   "main": "src/index.tsx",
   "scripts": {
@@ -23,5 +23,8 @@
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23"
   }
 }
