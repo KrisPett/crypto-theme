@@ -20,7 +20,7 @@ const provideColorTheme = () => {
     }
 }
 
-export default createTheme({
+const mainTheme = createTheme({
     // @ts-ignore
     palette: provideColorTheme(),
     typography: {},
@@ -140,3 +140,5 @@ export default createTheme({
     },
 
 })
+
+export default mainTheme;
