@@ -1,0 +1,27 @@
+{
+  "name": "crypto-theme",
+  "version": "1.0.0",
+  "description": "Themes",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KQT3/crypto-theme.git"
+  },
+  "keywords": [
+    "themes"
+  ],
+  "author": "KQT3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KQT3/crypto-theme/issues"
+  },
+  "homepage": "https://github.com/KQT3/crypto-theme#readme",
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.3"
+  }
+}
