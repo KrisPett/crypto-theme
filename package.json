@@ -1,6 +1,6 @@
 {
   "name": "crypto-theme",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "Themes",
   "main": "src/index.tsx",
   "scripts": {
