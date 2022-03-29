@@ -1,6 +1,5 @@
 import {createTheme} from "@mui/material";
 import globals from "./globals";
-import createShadow from "./utils/shadows";
 import breakpoints from "./utils/breakpoints";
 import container from "./utils/container";
 import lightThemeColors from "./utils/lightThemeColors"
@@ -27,7 +26,7 @@ const mainTheme = createTheme({
     breakpoints: {...breakpoints},
     shape: {},
     // @ts-ignore
-    shadows: createShadow(provideColorTheme().primary.main),
+    shadows: 0,
     components: {
         MuiCssBaseline: {
             styleOverrides: {
